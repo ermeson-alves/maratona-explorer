@@ -14,9 +14,13 @@ h1,h2,h3 .price{
     line-height: 19px;
 }
 
+li strong{
+    color:#390241;
+}
+
 /* BODY: */
 body{
-    background-color: #ffedd5; 
+    background-color: #b66b80; 
     /* O hexadecimal representa o sistema rgb, 
     dois simbolos para cada cor principal*/
     font-family: 'Roboto', sans-serif;
@@ -58,7 +62,7 @@ header h1{
 }
 
 header h1 span{
-    color: #995000;
+    color: #390241;
 }
 
 
@@ -67,18 +71,20 @@ section{
     margin-bottom: 24px;
 }
 section h2{
-    background-color: #fed7aa;
+    background-color: #000000;
     padding: 8px 16px;
     text-align: center;
     /* border: 1px solid black; */
     margin-bottom: 24px;
     font-size: 18px;
+    color: #FFFFFF;
 }
+
 .detalhes h3{
     font-size: 16px;
     font-family: 'Roboto Serif', serif ;
     text-transform: uppercase;
-    color: #2D2C2A;
+    color: #792087;
 }
 
 ul li{
@@ -88,9 +94,7 @@ ul li{
     display:flex;
 }
 /* Para acessar uma classificação específica usa-se dot notation */
-strong{
-    /* border: 1px solid black; */
-}
+
 
 li .detalhes{
     max-width: 240px;
