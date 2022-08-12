@@ -1,0 +1,110 @@
+/* GLOBAL */
+*{
+    /* seletor universal */
+    margin:0;
+    padding: 0;
+    /* remoção dos espaços e preenchimentos */
+}
+
+/* FONTS: */
+h1,h2,h3 .price{
+    font-family: 'Roboto Serif', serif ;
+    text-transform: uppercase;
+    color:#2D2C2A;
+    line-height: 19px;
+}
+
+/* BODY: */
+body{
+    background-color: #ffedd5; 
+    /* O hexadecimal representa o sistema rgb, 
+    dois simbolos para cada cor principal*/
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+/* HEADER: */
+header p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 16px;
+}
+header{
+    text-align: center;
+    padding: 32px 0;
+    /*Coloca as margens de cima e baixo em 0px
+      Coloca as margens laterais em automatico, centraliza.
+    */
+
+}
+/*Permite juntar a estilização de uma declaração anterior com 
+a atual
+
+É possível perceber que ocorre ESPECIFICIDADE
+*/
+header,
+section{
+    max-width: 300px;
+    /* border:1px solid black; */
+    margin: 0 auto;
+}
+
+header h1{
+    margin-bottom: 4px;
+    font-size: 28px;
+}
+
+header h1 span{
+    color: #995000;
+}
+
+
+
+section{
+    margin-bottom: 24px;
+}
+section h2{
+    background-color: #fed7aa;
+    padding: 8px 16px;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+.detalhes h3{
+    font-size: 16px;
+    font-family: 'Roboto Serif', serif ;
+    text-transform: uppercase;
+    color: #2D2C2A;
+}
+
+ul li{
+    margin-bottom: 16px;
+    /*Propriedade que coloca os "filhos de uma caixa" um ao lado 
+    do outro*/
+    display:flex;
+}
+/* Para acessar uma classificação específica usa-se dot notation */
+strong{
+    /* border: 1px solid black; */
+}
+
+li .detalhes{
+    max-width: 240px;
+}
+
+.detalhes p{
+    font-size: 14px;
+    font-family: 'Roboto Regular', serif ;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 21px;
+    /* Red, green, blue e alfa (opacidade) */
+}
+
+.detalhes h3{
+    margin-bottom: 8px;
+}
+
